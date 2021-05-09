@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A0176823F1DA6E000D60B4 /* hookkx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0175E23F1DA6E000D60B4 /* hookkx.framework */; };
+		46A0176D23F1DA6E000D60B4 /* hookkxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0176C23F1DA6E000D60B4 /* hookkxTests.m */; };
+		46A0177C23F1DAD2000D60B4 /* ZJHURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0177823F1DAD1000D60B4 /* ZJHURLProtocol.h */; };
+		46A0177D23F1DAD2000D60B4 /* ZJHURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0177923F1DAD1000D60B4 /* ZJHURLProtocol.m */; };
+		46A0177E23F1DAD2000D60B4 /* ZJHSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0177A23F1DAD2000D60B4 /* ZJHSessionConfiguration.m */; };
+		46A0177F23F1DAD2000D60B4 /* ZJHSessionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0177B23F1DAD2000D60B4 /* ZJHSessionConfiguration.h */; };
+		46A0179223F1DC32000D60B4 /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178123F1DC32000D60B4 /* SCLSwitchView.h */; };
+		46A0179323F1DC32000D60B4 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178223F1DC32000D60B4 /* SCLTimerDisplay.m */; };
+		46A0179423F1DC32000D60B4 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178323F1DC32000D60B4 /* SCLButton.h */; };
+		46A0179523F1DC32000D60B4 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178423F1DC32000D60B4 /* SCLAlertViewStyleKit.m */; };
+		46A0179623F1DC32000D60B4 /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178523F1DC32000D60B4 /* SCLMacros.h */; };
+		46A0179723F1DC32000D60B4 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178623F1DC32000D60B4 /* UIImage+ImageEffects.h */; };
+		46A0179823F1DC32000D60B4 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178723F1DC32000D60B4 /* SCLAlertView.h */; };
+		46A0179923F1DC32000D60B4 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178823F1DC32000D60B4 /* SCLAlertViewResponder.m */; };
+		46A0179A23F1DC32000D60B4 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178923F1DC32000D60B4 /* SCLTextView.m */; };
+		46A0179B23F1DC32000D60B4 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178A23F1DC32000D60B4 /* SCLSwitchView.m */; };
+		46A0179C23F1DC32000D60B4 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178B23F1DC32000D60B4 /* SCLAlertViewStyleKit.h */; };
+		46A0179D23F1DC32000D60B4 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178C23F1DC32000D60B4 /* SCLButton.m */; };
+		46A0179E23F1DC32000D60B4 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178D23F1DC32000D60B4 /* SCLTimerDisplay.h */; };
+		46A0179F23F1DC32000D60B4 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0178E23F1DC32000D60B4 /* UIImage+ImageEffects.m */; };
+		46A017A023F1DC32000D60B4 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0178F23F1DC32000D60B4 /* SCLTextView.h */; };
+		46A017A123F1DC32000D60B4 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0179023F1DC32000D60B4 /* SCLAlertViewResponder.h */; };
+		46A017A223F1DC32000D60B4 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0179123F1DC32000D60B4 /* SCLAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A0176923F1DA6E000D60B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A0175523F1DA6D000D60B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A0175D23F1DA6E000D60B4;
+			remoteInfo = hookkx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46A0175E23F1DA6E000D60B4 /* hookkx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hookkx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0176223F1DA6E000D60B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A0176723F1DA6E000D60B4 /* hookkxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hookkxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0176C23F1DA6E000D60B4 /* hookkxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hookkxTests.m; sourceTree = "<group>"; };
+		46A0176E23F1DA6E000D60B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A0177823F1DAD1000D60B4 /* ZJHURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHURLProtocol.h; sourceTree = "<group>"; };
+		46A0177923F1DAD1000D60B4 /* ZJHURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHURLProtocol.m; sourceTree = "<group>"; };
+		46A0177A23F1DAD2000D60B4 /* ZJHSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHSessionConfiguration.m; sourceTree = "<group>"; };
+		46A0177B23F1DAD2000D60B4 /* ZJHSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHSessionConfiguration.h; sourceTree = "<group>"; };
+		46A0178123F1DC32000D60B4 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLSwitchView.h; sourceTree = "<group>"; };
+		46A0178223F1DC32000D60B4 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		46A0178323F1DC32000D60B4 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		46A0178423F1DC32000D60B4 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		46A0178523F1DC32000D60B4 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		46A0178623F1DC32000D60B4 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		46A0178723F1DC32000D60B4 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		46A0178823F1DC32000D60B4 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		46A0178923F1DC32000D60B4 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		46A0178A23F1DC32000D60B4 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLSwitchView.m; sourceTree = "<group>"; };
+		46A0178B23F1DC32000D60B4 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		46A0178C23F1DC32000D60B4 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		46A0178D23F1DC32000D60B4 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		46A0178E23F1DC32000D60B4 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		46A0178F23F1DC32000D60B4 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		46A0179023F1DC32000D60B4 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		46A0179123F1DC32000D60B4 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A0175B23F1DA6E000D60B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0176423F1DA6E000D60B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0176823F1DA6E000D60B4 /* hookkx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A0175423F1DA6D000D60B4 = {
+			isa = PBXGroup;
+			children = (
+				46A0176023F1DA6E000D60B4 /* hookkx */,
+				46A0176B23F1DA6E000D60B4 /* hookkxTests */,
+				46A0178023F1DC32000D60B4 /* SCLAlertView */,
+				46A0175F23F1DA6E000D60B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A0175F23F1DA6E000D60B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A0175E23F1DA6E000D60B4 /* hookkx.framework */,
+				46A0176723F1DA6E000D60B4 /* hookkxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A0176023F1DA6E000D60B4 /* hookkx */ = {
+			isa = PBXGroup;
+			children = (
+				46A0177B23F1DAD2000D60B4 /* ZJHSessionConfiguration.h */,
+				46A0177A23F1DAD2000D60B4 /* ZJHSessionConfiguration.m */,
+				46A0177823F1DAD1000D60B4 /* ZJHURLProtocol.h */,
+				46A0177923F1DAD1000D60B4 /* ZJHURLProtocol.m */,
+				46A0176223F1DA6E000D60B4 /* Info.plist */,
+			);
+			path = hookkx;
+			sourceTree = "<group>";
+		};
+		46A0176B23F1DA6E000D60B4 /* hookkxTests */ = {
+			isa = PBXGroup;
+			children = (
+				46A0176C23F1DA6E000D60B4 /* hookkxTests.m */,
+				46A0176E23F1DA6E000D60B4 /* Info.plist */,
+			);
+			path = hookkxTests;
+			sourceTree = "<group>";
+		};
+		46A0178023F1DC32000D60B4 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				46A0178123F1DC32000D60B4 /* SCLSwitchView.h */,
+				46A0178223F1DC32000D60B4 /* SCLTimerDisplay.m */,
+				46A0178323F1DC32000D60B4 /* SCLButton.h */,
+				46A0178423F1DC32000D60B4 /* SCLAlertViewStyleKit.m */,
+				46A0178523F1DC32000D60B4 /* SCLMacros.h */,
+				46A0178623F1DC32000D60B4 /* UIImage+ImageEffects.h */,
+				46A0178723F1DC32000D60B4 /* SCLAlertView.h */,
+				46A0178823F1DC32000D60B4 /* SCLAlertViewResponder.m */,
+				46A0178923F1DC32000D60B4 /* SCLTextView.m */,
+				46A0178A23F1DC32000D60B4 /* SCLSwitchView.m */,
+				46A0178B23F1DC32000D60B4 /* SCLAlertViewStyleKit.h */,
+				46A0178C23F1DC32000D60B4 /* SCLButton.m */,
+				46A0178D23F1DC32000D60B4 /* SCLTimerDisplay.h */,
+				46A0178E23F1DC32000D60B4 /* UIImage+ImageEffects.m */,
+				46A0178F23F1DC32000D60B4 /* SCLTextView.h */,
+				46A0179023F1DC32000D60B4 /* SCLAlertViewResponder.h */,
+				46A0179123F1DC32000D60B4 /* SCLAlertView.m */,
+			);
+			name = SCLAlertView;
+			path = hookkx/SCLAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46A0175923F1DA6E000D60B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A017A123F1DC32000D60B4 /* SCLAlertViewResponder.h in Headers */,
+				46A0177C23F1DAD2000D60B4 /* ZJHURLProtocol.h in Headers */,
+				46A0179E23F1DC32000D60B4 /* SCLTimerDisplay.h in Headers */,
+				46A0179823F1DC32000D60B4 /* SCLAlertView.h in Headers */,
+				46A0179C23F1DC32000D60B4 /* SCLAlertViewStyleKit.h in Headers */,
+				46A0179723F1DC32000D60B4 /* UIImage+ImageEffects.h in Headers */,
+				46A0177F23F1DAD2000D60B4 /* ZJHSessionConfiguration.h in Headers */,
+				46A0179223F1DC32000D60B4 /* SCLSwitchView.h in Headers */,
+				46A0179423F1DC32000D60B4 /* SCLButton.h in Headers */,
+				46A0179623F1DC32000D60B4 /* SCLMacros.h in Headers */,
+				46A017A023F1DC32000D60B4 /* SCLTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46A0175D23F1DA6E000D60B4 /* hookkx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0177223F1DA6E000D60B4 /* Build configuration list for PBXNativeTarget "hookkx" */;
+			buildPhases = (
+				46A0175923F1DA6E000D60B4 /* Headers */,
+				46A0175A23F1DA6E000D60B4 /* Sources */,
+				46A0175B23F1DA6E000D60B4 /* Frameworks */,
+				46A0175C23F1DA6E000D60B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hookkx;
+			productName = hookkx;
+			productReference = 46A0175E23F1DA6E000D60B4 /* hookkx.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46A0176623F1DA6E000D60B4 /* hookkxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0177523F1DA6E000D60B4 /* Build configuration list for PBXNativeTarget "hookkxTests" */;
+			buildPhases = (
+				46A0176323F1DA6E000D60B4 /* Sources */,
+				46A0176423F1DA6E000D60B4 /* Frameworks */,
+				46A0176523F1DA6E000D60B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A0176A23F1DA6E000D60B4 /* PBXTargetDependency */,
+			);
+			name = hookkxTests;
+			productName = hookkxTests;
+			productReference = 46A0176723F1DA6E000D60B4 /* hookkxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A0175523F1DA6D000D60B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = macgu;
+				TargetAttributes = {
+					46A0175D23F1DA6E000D60B4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					46A0176623F1DA6E000D60B4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 46A0175823F1DA6D000D60B4 /* Build configuration list for PBXProject "hookkx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46A0175423F1DA6D000D60B4;
+			productRefGroup = 46A0175F23F1DA6E000D60B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A0175D23F1DA6E000D60B4 /* hookkx */,
+				46A0176623F1DA6E000D60B4 /* hookkxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A0175C23F1DA6E000D60B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0176523F1DA6E000D60B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A0175A23F1DA6E000D60B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A017A223F1DC32000D60B4 /* SCLAlertView.m in Sources */,
+				46A0177E23F1DAD2000D60B4 /* ZJHSessionConfiguration.m in Sources */,
+				46A0179323F1DC32000D60B4 /* SCLTimerDisplay.m in Sources */,
+				46A0179A23F1DC32000D60B4 /* SCLTextView.m in Sources */,
+				46A0179923F1DC32000D60B4 /* SCLAlertViewResponder.m in Sources */,
+				46A0179D23F1DC32000D60B4 /* SCLButton.m in Sources */,
+				46A0179F23F1DC32000D60B4 /* UIImage+ImageEffects.m in Sources */,
+				46A0177D23F1DAD2000D60B4 /* ZJHURLProtocol.m in Sources */,
+				46A0179B23F1DC32000D60B4 /* SCLSwitchView.m in Sources */,
+				46A0179523F1DC32000D60B4 /* SCLAlertViewStyleKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0176323F1DA6E000D60B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0176D23F1DA6E000D60B4 /* hookkxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46A0176A23F1DA6E000D60B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A0175D23F1DA6E000D60B4 /* hookkx */;
+			targetProxy = 46A0176923F1DA6E000D60B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46A0177023F1DA6E000D60B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46A0177123F1DA6E000D60B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46A0177323F1DA6E000D60B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = Default;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = hookkx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = landonghook.hookkx;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A0177423F1DA6E000D60B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = Default;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = hookkx/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = landonghook.hookkx;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46A0177623F1DA6E000D60B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hookkxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = landonghook.hookkxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46A0177723F1DA6E000D60B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hookkxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = landonghook.hookkxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A0175823F1DA6D000D60B4 /* Build configuration list for PBXProject "hookkx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0177023F1DA6E000D60B4 /* Debug */,
+				46A0177123F1DA6E000D60B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A0177223F1DA6E000D60B4 /* Build configuration list for PBXNativeTarget "hookkx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0177323F1DA6E000D60B4 /* Debug */,
+				46A0177423F1DA6E000D60B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A0177523F1DA6E000D60B4 /* Build configuration list for PBXNativeTarget "hookkxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0177623F1DA6E000D60B4 /* Debug */,
+				46A0177723F1DA6E000D60B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A0175523F1DA6D000D60B4 /* Project object */;
+}
